@@ -1,6 +1,7 @@
 # Multimedial
 #### Exploración creativa del arte, tecnología, y medios digitales interactivos.
 
+
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
