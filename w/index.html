@@ -11,55 +11,76 @@
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
 
 <title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
 
 <style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+/* Estilo general del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #222222;
+            margin: 0;
+             font-size: arial, sans-serif;
+             color: #8e8888;
+        }
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+        /* Contenedor principal */
+        .contenedor {
+            width: 80%;
+            margin: auto;
+        }
 
-  background-color: white;
-  /* Define que el fondo de toda la página sea blanco */
+        /* Sección o bloque */
+        .bloque {
+            background-color: rgba(52, 52, 52, 0.813);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
 
-  color: black;
-  /* Define que el color del texto sea negro */
+        /* Imagen */
+        .bloque img {
+            width: 50%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 10px;
+            font-size: xx-large;
+            margin-left: 10px;
+        }
 
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-
-</style>
-<!-- Fin de la sección de estilos -->
-
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
+    </style>
 </head>
 <!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-MULTIMEDIAL
-<!-- Texto que aparece en el centro de la pantalla -->
+  <!-- Contenedor principal -->
+    <div class="contenedor">
+
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/obra 1.jpg" alt="Descripción de la imagen">
+            <h2>Silencio</h2>
+            <p>
+                
+            </p>
+        </div>
+
+  <!-- BLOQUE 2 -->
+      
+
+        <div class="bloque">
+        <a href="obras.html">obras</a><br>
+        <a href="contacto.html">Contacto</a>
+        </div>
 
 </body>
 <!-- Fin del contenido visible -->
