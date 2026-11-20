@@ -123,3 +123,9 @@ Página web:
 
 #### LSystem
 <img src="https://rarandamartinez-del.github.io/Multimedial/w/img/ramas_2.gif" width="auto" heigth="auto" />
+
+<style>
+    body{
+        background-color: rgb(61, 59, 59)
+
+    }
