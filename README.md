@@ -116,8 +116,7 @@ Página web:
 ```
 
 ## Unidad II: Programación visual creativa basada en nodos
-#### 1. Intro TouchDesigner:
-#### 2. Ejercicios: 
+#### 1. TouchDesigner: 
 #### Point
 <img src="https://rarandamartinez-del.github.io/Multimedial/w/img/point.gif " width="auto" heigth="auto" />
 
