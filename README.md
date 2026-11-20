@@ -1,8 +1,6 @@
 <h1 style="color: #ebd69d;">Multimedial</h1>
   Exploración creativa del arte, tecnología, y medios digitales interactivos.
 
-Página web:
-
 ### index
 
 ## Unidad I. [Hipervícunlo](#unidad-i-hipervícunlo)
