@@ -125,6 +125,4 @@ Página web:
 
 <style>
     body{
-        background-color: rgb(177, 177, 177)
-
-    }
+        background-color: rgb(177, 177, 177) }
