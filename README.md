@@ -1,4 +1,4 @@
-<h1 style="color: #ebd69d;">Multimedial</h1>
+<h1 style="color: #73684c;">Multimedial</h1>
   Exploración creativa del arte, tecnología, y medios digitales interactivos.
 
 ### index
