@@ -1,7 +1,25 @@
-# Multimedial
-#### Exploración creativa del arte, tecnología, y medios digitales interactivos.
+<h1 style="color: #ebd69d;">Multimedial</h1>
+  Exploración creativa del arte, tecnología, y medios digitales interactivos.
 
-Ejercicio 1, semana 1:
+Página web:
+
+### index
+
+## Unidad I. [Hipervícunlo](#unidad-i-hipervícunlo)
+
+1. [Mi página web.](#1-mi-primera-página)
+
+
+## Unidad II. Programación visual creativa basada en nodos
+
+1. [Intro TouchDesigner](#1-intro-touchdesigner)
+2. [Ejercicios](#2-ejercicios)
+
+## Unidad I. Hipervícunlo
+
+#### 1. [Mi página web]: (https://rarandamartinez-del.github.io/Multimedial/w/index)
+
+
 ```
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
@@ -16,55 +34,79 @@ Ejercicio 1, semana 1:
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
 
 <title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
 
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
+ <style>
+        /* Estilo general del cuerpo */
+        body {
+  font-family: 'arial';
+            background-color: #151515;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             color: #8e8888;
+        }
 
-body{
-/* "body" se refiere a todo el contenido visible de la página */
+        /* Contenedor principal */
+        .contenedor {
+            width: 80%;
+            margin: auto;
+        }
 
-  background-color: white;
-  /* Define que el fondo de toda la página sea blanco */
+        /* Sección o bloque */
+        .bloque {
+            background-color: rgb(31, 31, 31);
+             margin:auto;
+             margin-top: 50px;
+            width: 60%;
+            padding: 50px;
+            border-radius: 10px;
+        }
 
-  color: black;
-  /* Define que el color del texto sea negro */
+        /* Imagen */
+        .bloque img {
+        width: 90%;
+        height: auto;
+        display: block; 
+        margin: 0 auto; /* Centrado horizontal */
+    }
 
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
+        /* Encabezado */
+        .bloque h1 {
+            margin-top: 10px;
+            color: #8e8888;
+        }
 
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-
-</style>
-<!-- Fin de la sección de estilos -->
-
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+             color: #8e8888;
+        }
+    </style>
 </head>
 <!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
 
-MULTIMEDIAL
-<!-- Texto que aparece en el centro de la pantalla -->
+  <!-- Contenedor principal -->
+    <div class="contenedor">
+
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/obra 1.jpg" alt="Descripción de la imagen">
+            <h1>Silencio</h1>
+            <p>
+                
+            </p>
+        </div>
+
+  <!-- BLOQUE 2 -->
+      
+
+  <nav>
+<a href="obras.html">Obra</a>
+<a href="contacto.html">Contacto</a><br>
+</nav>
 
 </body>
 <!-- Fin del contenido visible -->
@@ -72,3 +114,12 @@ MULTIMEDIAL
 </html>
 <!-- Fin del documento HTML -->
 ```
+
+## Unidad II: Programación visual creativa basada en nodos
+#### 1. Intro TouchDesigner:
+#### 2. Ejercicios: 
+#### Point
+<img src="https://rarandamartinez-del.github.io/Multimedial/w/img/point.gif " width="auto" heigth="auto" />
+
+#### LSystem
+<img src="https://rarandamartinez-del.github.io/Multimedial/w/img/ramas_2.gif" width="auto" heigth="auto" />
